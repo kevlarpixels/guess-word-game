@@ -1,0 +1,44 @@
+* {
+    background-color: black;
+}
+
+header {
+    width: 100%;
+    margin: 5% auto 5% auto;
+}   
+
+.neon {
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+   text-align: center;
+   color: #fff;
+   text-shadow:
+     0 0 5px #fff,
+     0 0 10px #fff,
+     0 0 20px #fff,
+     0 0 40px #0ff,
+     0 0 80px #0ff,
+     0 0 90px #0ff,
+     0 0 100px #0ff,
+     0 0 150px #0ff;
+ }
+
+
+.container {
+    margin: 0 auto 5% auto;
+    width: 100%;
+    align-content: center;
+}
+
+.containertwo {
+    width: 100%;
+    align-content: center;
+    line-height: 60px;
+}
+
+p {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    text-align: center;
+}
