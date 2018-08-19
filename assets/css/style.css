@@ -12,19 +12,27 @@ header {
     
 }   
 
-img {
-    width: 20px;
-    margin: 0 auto;
-}
-
 .neon {
-    font-size: 60px;
+    font-size: 110px;
     font-family: Arial, Helvetica, sans-serif;
    text-align: center;
    color: #fff;
    text-shadow:
      0 0 5px #fff,
      0 0 10px #fff,
+     0 0 20px #fff,
+     0 0 40px #0ff,
+     0 0 80px #0ff,
+     0 0 90px #0ff,
+     0 0 100px #0ff,
+     0 0 150px #0ff;
+ }
+
+ i {
+     font-size: 40px;
+     padding: 0 10px;
+     color: #fff;
+     text-shadow:
      0 0 20px #fff,
      0 0 40px #0ff,
      0 0 80px #0ff,
@@ -43,12 +51,22 @@ img {
 .containertwo {
     width: 100%;
     align-content: center;
-    line-height: 60px;
+    line-height: 50px;
 }
 
 p {
-    font-size: 40px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    font-family: 'Roboto', sans-serif;
     color: #fff;
     text-align: center;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 20px 0 50px 0;
+    text-align: center;
+    margin: 20px auto;
 }
